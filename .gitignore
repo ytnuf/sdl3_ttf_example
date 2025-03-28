@@ -1,0 +1,36 @@
+
+# Build directory
+cmake-build-*/
+build*/
+_build*/
+out/
+
+# CMake
+CMakeUserPresets.json
+compile_commands.json
+
+# Hidden files
+.*
+!.astylerc
+!.clang-tidy
+!.clangd
+!.dockerignore
+!.gdextension
+!.gdignore
+!.gitignore
+!.gitmodules
+!.uncrustify.cfg
+
+# Codeblocks
+*.depend
+*.layout
+
+# QT Creator
+*.pro.user*
+CMakeLists.txt.user
+
+# Misc
+*.orig
+*~
+tmp/
+custom/
