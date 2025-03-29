@@ -9,5 +9,10 @@ target_sources("example" PRIVATE
 )
 
 add_subdirectory("external/sdl3/")
+set(SDLTTF_VENDORED ON)
+add_subdirectory("external/sdl3_ttf/")
 
-target_link_libraries("example" PRIVATE "SDL3::SDL3")
+target_link_libraries("example"
+    PRIVATE "SDL3::SDL3"
+    PRIVATE "SDL3_ttf::SDL3_ttf"
+)
