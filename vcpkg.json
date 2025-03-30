@@ -1,0 +1,19 @@
+{
+    "builtin-baseline": "acd5bba5aac8b6573b5f6f463dc0341ac0ee6fa4",
+    "dependencies": [
+        {
+            "name": "dbus",
+            "default-features": false,
+            "platform": "linux",
+            "version>=": "1.16.2"
+        },
+        {
+            "name": "sdl3",
+            "version>=": "3.2.8"
+        },
+        {
+            "name": "sdl3-ttf",
+            "version>=": "3.1.0"
+        }
+    ]
+}
